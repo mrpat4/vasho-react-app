@@ -1,0 +1,59 @@
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url("eot/iranSansBold.eot");
+  src: url("eot/iranSansBold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-8 */ url("woff2/iranSansBold.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/ url("woff/iranSansBold.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("ttf/iranSansBold.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url("eot/iranSansMedium.eot");
+  src: url("eot/iranSansMedium.eot?#iefix") format("embedded-opentype"),
+    /* IE6-8 */ url("woff2/iranSansMedium.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/ url("woff/iranSansMedium.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("ttf/iranSansMedium.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url("eot/iranSansLight.eot");
+  src: url("eot/iranSansLight.eot?#iefix") format("embedded-opentype"),
+    /* IE6-8 */ url("woff2/iranSansLight.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/ url("woff/iranSansLight.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("ttf/iranSansMedium.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url("eot/iranSansUltraLight.eot");
+  src: url("eot/iranSansUltraLight.eot?#iefix") format("embedded-opentype"),
+    /* IE6-8 */ url("woff2/iranSansUltraLight.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/ url("woff/iranSansUltraLight.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("ttf/iranSansUltraLight.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("eot/iranSans.eot");
+  src: url("eot/iranSans.eot?#iefix") format("embedded-opentype"),
+    /* IE6-8 */ url("woff2/iranSans.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/ url("woff/iranSans.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("ttf/iranSans.ttf")
+      format("truetype");
+}

@@ -1,0 +1,61 @@
+.category {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	margin-top: 5em;
+
+	.active {
+		background-color: var(--mainColor);
+		color: #fff;
+	}
+
+	h1 {
+		font-size: 1.5em;
+		text-align: center;
+		background-color: #fff;
+		display: inline-block;
+		vertical-align: top;
+		padding: 0 1em;
+
+		&:after {
+			content: "";
+			position: absolute;
+			top: 17%;
+			left: 0;
+			width: 100%;
+			border: 1px solid var(--mainColor);
+			z-index: -1;
+		}
+		&:before {
+			content: "";
+			position: absolute;
+			top: 23%;
+			left: 0;
+			width: 100%;
+			border: 1px solid var(--mainColor);
+			z-index: -1;
+		}
+	}
+	ul {
+		display: flex;
+		justify-content: center;
+		padding: 1em;
+
+		li {
+			margin-left: 1.5em;
+			width: 10em;
+
+			a {
+				padding: 0.5em;
+				display: block;
+				transition: 0.5s ease-in-out;
+
+				&:hover {
+					background-color: var(--mainColor);
+					color: #fff;
+					transition: 0.5s ease-in-out;
+				}
+			}
+		}
+	}
+}

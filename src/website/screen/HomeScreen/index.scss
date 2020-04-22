@@ -1,0 +1,14 @@
+// @import url("./values/theme.scss");
+@import "../../../values/theme.scss";
+
+.col-main {
+	width: 90%;
+	margin: auto;
+}
+
+//Product Section Styles
+.productContainer {
+	@extend .centerAll;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}

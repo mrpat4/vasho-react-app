@@ -1,0 +1,53 @@
+.top-header {
+	display: flex;
+	width: 90%;
+	margin: auto;
+
+	ul {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 2em 0;
+
+		li {
+			width: 45px;
+			height: 45px;
+			border: 4px double rgb(144, 143, 143);
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-left: 1em;
+
+			&:hover {
+				background-color: var(--mainColor);
+				transition: 0.5s ease-in-out border 0.1s linear;
+				border: 4px double var(--mainColor);
+			}
+
+			&:hover i {
+				transition: 0.3s ease-in-out;
+				color: #fff;
+			}
+
+			i {
+				font-size: 1.2rem;
+				color: rgb(144, 143, 143);
+				padding-top: 0.2em;
+				transition: 0.3s ease-in-out;
+			}
+		}
+
+		.logo {
+			order: 1;
+			margin-right: auto;
+			border: none;
+			padding-left: 3.5em;
+
+			&:hover {
+				background-color: transparent;
+				border: none;
+			}
+		}
+	}
+}
