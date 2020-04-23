@@ -1,100 +1,103 @@
 .every-tab {
-	display: flex;
-	margin-bottom: 1em;
-	margin-top: 1em;
-	flex-wrap: wrap;
+  display: flex;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  flex-wrap: wrap;
 }
 
 .card-product {
-	display: flex;
-	background: #f6f6f6;
-	flex-direction: column;
-	border-radius: 7px;
-	width: 15em;
-	margin-left: 1em;
-	.card-product-img {
-		position: relative;
-		// width: 200px;
-		height: 12em;
+  display: flex;
+  background: #f6f6f6;
+  flex-direction: column;
+  border-radius: 7px;
+  width: 15em;
+  margin-left: 1em;
+  .card-product-img {
+    position: relative;
+    // width: 200px;
+    height: 12em;
 
-		img {
-			width: 100%;
-			height: 100%;
-			border-radius: 7px 7px 0 0;
-		}
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 7px 7px 0 0;
+    }
 
-		.overlay {
-			position: absolute;
-			top: 0;
-			right: 0;
-			left: 0;
-			bottom: 0;
-			background-color: rgba(var(--mainColor), 0.1);
-			text-align: right;
-			margin: 0;
-			padding: 0;
-			transition: 0.5s linear;
-			padding-top: 2em;
-			display: flex;
-			flex-direction: column;
-			border-radius: 7px 7px 0 0;
+    .overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background-color: rgba(var(--mainColor), 0.1);
+      text-align: right;
+      margin: 0;
+      padding: 0;
+      transition: 0.5s linear;
+      padding-top: 2em;
+      display: flex;
+      flex-direction: column;
+      border-radius: 7px 7px 0 0;
 
-			i {
-				text-transform: uppercase;
-				transform: translateY(-25px);
-				transition: 0.5s linear;
-				opacity: 0;
-				color: #fff;
-				padding: 1em;
-				position: relative;
-			}
+      a {
+        width: 1px;
+      }
+      i {
+        text-transform: uppercase;
+        transform: translateY(-25px);
+        transition: 0.5s linear;
+        opacity: 0;
+        color: #fff;
+        padding: 1em;
+        position: relative;
+      }
 
-			h5 {
-				text-transform: uppercase;
-				color: white;
-				letter-spacing: 0.1rem;
-				padding-top: 0;
-				margin-top: 0;
-				opacity: 0;
-				transition: 0.5s linear 0.2s;
-			}
-		}
-	}
+      h5 {
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 0.1rem;
+        padding-top: 0;
+        margin-top: 0;
+        opacity: 0;
+        transition: 0.5s linear 0.2s;
+      }
+    }
+  }
 
-	.caption {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		padding: 1em;
+  .caption {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em;
 
-		h1 {
-			padding-bottom: 0.5em;
-			font-size: 1rem;
-		}
+    h1 {
+      padding-bottom: 0.5em;
+      font-size: 1rem;
+    }
 
-		h3 {
-			font-size: 0.7rem;
-		}
+    h3 {
+      font-size: 0.7rem;
+    }
 
-		p {
-			font-size: 0.7rem;
-			color: rgb(180, 180, 180);
-		}
-	}
-	&:hover {
-		.overlay {
-			background-color: rgba(#ee5978, 0.6);
+    p {
+      font-size: 0.7rem;
+      color: rgb(180, 180, 180);
+    }
+  }
+  &:hover {
+    .overlay {
+      background-color: rgba(#ee5978, 0.6);
 
-			i {
-				opacity: 1;
-				padding: 1em;
-			}
+      i {
+        opacity: 1;
+        padding: 1em;
+      }
 
-			.share {
-				transform: translateY(0);
-				opacity: 1;
-				color: #fff;
-			}
-		}
-	}
+      .share {
+        transform: translateY(0);
+        opacity: 1;
+        color: #fff;
+      }
+    }
+  }
 }

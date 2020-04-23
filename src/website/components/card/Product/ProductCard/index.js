@@ -7,7 +7,7 @@ const ProductCard = ({ data }) => {
   return (
     <div className="every-tab">
       <li className="card-product">
-        <Link to="#">
+        <Link to="/product-page">
           <div className="card-product-img">
             <img src={data.image} alt={data.alt} />
             <div class="overlay">

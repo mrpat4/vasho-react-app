@@ -1,0 +1,103 @@
+@import "../../../values/theme/";
+.product-wraper {
+  display: flex;
+  margin: auto;
+  padding: 2em 0;
+  justify-content: space-between;
+
+  div.left-side {
+    width: 49%;
+    background-color: #f6f6f6;
+    padding: 2em;
+  }
+
+  .right-side {
+    width: 49%;
+    padding: 0 2em;
+
+    .right-side-inner {
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      padding: 2em;
+      @extend .centerAll;
+      text-align: center;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+
+      h2 {
+        font-size: 1.5rem;
+        padding-bottom: 1em;
+      }
+
+      .product-detail-list {
+        width: 100%;
+        border-top: 1px solid #e7e7e7;
+        line-height: 1.2rem;
+        margin-bottom: 0;
+        padding: 0.1em 0;
+        font-size: 0.8rem;
+
+        li {
+          line-height: 1.2rem;
+          padding: 0.8em;
+
+          span {
+            padding-left: 1em;
+          }
+        }
+      }
+
+      .product-price {
+        width: 100%;
+        border-top: 1px solid #e7e7e7;
+        border-bottom: 1px solid #e7e7e7;
+        padding: 0.1em 0;
+        margin-bottom: 1em;
+
+        li {
+          display: inline-block;
+          padding: 1em;
+
+          span {
+            text-decoration: line-through;
+          }
+        }
+      }
+
+      .add-wraper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        label {
+          font-size: 0.8rem;
+          order: 1;
+        }
+        input {
+          width: 2.5em;
+          margin: 0 1em;
+          padding: 4px;
+          height: 2.5em;
+
+          &::placeholder {
+            padding: 5px;
+          }
+        }
+
+        button {
+          border: none;
+          color: #fff;
+          background-color: #000;
+          transition: 0.3s ease-in-out;
+          font-family: iranSans;
+          padding: 0.5em;
+          order: -1;
+
+          &:hover {
+            background-color: var(--mainColor);
+            transition: 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
