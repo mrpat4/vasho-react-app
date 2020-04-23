@@ -1,53 +1,77 @@
 .top-header {
-	display: flex;
-	width: 90%;
-	margin: auto;
+  display: flex;
+  width: 90%;
+  margin: auto;
 
-	ul {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		padding: 2em 0;
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+    flex-direction: row-reverse;
 
-		li {
-			width: 45px;
-			height: 45px;
-			border: 4px double rgb(144, 143, 143);
-			border-radius: 50%;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			margin-left: 1em;
+    li {
+      width: 45px;
+      height: 45px;
+      border: 4px double rgb(144, 143, 143);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 0.5em;
+      position: relative;
 
-			&:hover {
-				background-color: var(--mainColor);
-				transition: 0.5s ease-in-out border 0.1s linear;
-				border: 4px double var(--mainColor);
-			}
+      &:nth-child(2) {
+        order: 1;
+      }
 
-			&:hover i {
-				transition: 0.3s ease-in-out;
-				color: #fff;
-			}
+      &:hover {
+        background-color: var(--mainColor);
+        transition: 0.5s ease-in-out border 0.1s linear;
+        border: 4px double var(--mainColor);
+      }
 
-			i {
-				font-size: 1.2rem;
-				color: rgb(144, 143, 143);
-				padding-top: 0.2em;
-				transition: 0.3s ease-in-out;
-			}
-		}
+      &:hover i {
+        transition: 0.3s ease-in-out;
+        color: #fff;
+      }
 
-		.logo {
-			order: 1;
-			margin-right: auto;
-			border: none;
-			padding-left: 3.5em;
+      i {
+        font-size: 1.2rem;
+        color: rgb(144, 143, 143);
+        padding-top: 0.2em;
+        transition: 0.3s ease-in-out;
+      }
 
-			&:hover {
-				background-color: transparent;
-				border: none;
-			}
-		}
-	}
+      span {
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        background-color: #000;
+        color: #fff;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 13px;
+        padding-bottom: 5px;
+      }
+    }
+
+    .logo {
+      order: 2;
+      margin-left: auto;
+      border: none;
+      padding-right: 3.5em;
+
+      img {
+        width: 120px;
+      }
+
+      &:hover {
+        background-color: transparent;
+        border: none;
+      }
+    }
+  }
 }
