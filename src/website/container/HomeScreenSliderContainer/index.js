@@ -5,10 +5,10 @@ import HomeScreenSlider from "../HomeScreenSlider";
 
 const HomeScreenSliderContainer = () => {
   const array = [
-    { src: "https://picsum.photos/seed/picsum/900/400", alt: "Slider 1" },
-    { src: "https://picsum.photos/seed/picsum/900/400", alt: "Slider 2" },
-    { src: "https://picsum.photos/seed/picsum/900/400", alt: "Slider 3" },
-    { src: "https://picsum.photos/seed/picsum/900/400", alt: "Slider 4" },
+    { src: "https://source.unsplash.com/1400x900/?nature,trees", alt: "Slider 1" },
+    { src: "https://source.unsplash.com/1400x900/?nature,flower", alt: "Slider 2" },
+    { src: "https://source.unsplash.com/1400x900/?nature,green", alt: "Slider 3" },
+    { src: "https://source.unsplash.com/1400x900/?nature,woods", alt: "Slider 4" },
   ];
 
   const renderSlider = () => {
@@ -18,7 +18,7 @@ const HomeScreenSliderContainer = () => {
 
   return (
     <div className="sliderContainer">
-      <Carousel swipeable={true} transitionTime={2000} autoPlay={true} showStatus={false} showThumbs={false} showArrows={true}>
+      <Carousel swipeable={true} transitionTime={1000} autoPlay={true} showStatus={false} showThumbs={false} showArrows={true}>
         {renderSlider()}
       </Carousel>
     </div>

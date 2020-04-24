@@ -12,10 +12,21 @@ const HeaderContainer = () => {
   const renderHeader = () => {
     return array.map((ar) => <Header data={ar} />);
   };
+  // return (
+  //   <div classNameName="nav">
+  //     <ul classNameName="nav-ul">{renderHeader()}</ul>
+  //   </div>
+  // );
   return (
-    <div className="nav">
-      <ul className="nav-ul">{renderHeader()}</ul>
-    </div>
+    <nav className="nav navbar navbar-expand-lg navbar-dark sticky-top">
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+
+      <div className="collapse navbar-collapse ul-wrapper" id="navbarSupportedContent">
+        <ul className="nav-ul navbar-nav mx-auto">{renderHeader()}</ul>
+      </div>
+    </nav>
   );
 };
 export default HeaderContainer;
