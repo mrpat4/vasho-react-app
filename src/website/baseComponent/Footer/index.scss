@@ -2,20 +2,22 @@ div.footer {
   margin: auto;
   .upper-info {
     background: var(--mainColor);
-    display: flex;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin: auto;
     padding: 1em;
     color: #fff;
 
     figure {
       display: flex;
-      flex: 1 0 100px;
+      // flex: 1 0 100px;
       padding: 2em;
       justify-content: center;
-      flex-wrap: wrap;
-      align-items: center;
+      // justify-content: center;
+      // flex-wrap: wrap;
+      // align-items: center;
 
       div.span-wraper {
         border: 4px double #fff;
@@ -64,20 +66,20 @@ div.footer {
   }
 
   section.footer-wraper {
-    display: flex;
+    // display: flex;
     margin: auto;
     padding: 2em 0;
-    justify-content: space-between;
+    // justify-content: space-between;
 
     div.left-side {
-      width: 49%;
+      // width: 49%;
       background-color: #f6f6f6;
       padding: 2em;
     }
 
     div.right-side {
       // background: lightblue;
-      width: 49%;
+      // width: 49%;
       padding: 0 2em;
       display: flex;
       flex-direction: column;

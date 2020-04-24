@@ -1,5 +1,6 @@
 import React from "react";
 import Categories from "../Categories";
+import ProductsTitle from "../../card/Product/ProductsTitle";
 
 const CategoriesContainer = () => {
   const array = [
@@ -14,7 +15,7 @@ const CategoriesContainer = () => {
   };
   return (
     <div className="category">
-      <h1>محصولات</h1>
+      <ProductsTitle title="محصولات" />
       <ul className="category-ul">{renderCategories()}</ul>
     </div>
   );

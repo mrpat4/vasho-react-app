@@ -3,9 +3,10 @@ import "./index.scss";
 import { Link } from "react-router-dom";
 
 const ProductCard = ({ data }) => {
+  console.log({ data });
   // const items = () => {
   return (
-    <div className="every-tab">
+    <div className="every-tab col-lg-3 col-md-4 col-sm-6 justify-content-center">
       <li className="card-product">
         <Link to="/product-page">
           <div className="card-product-img">

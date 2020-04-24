@@ -7,7 +7,7 @@ import CategoriesContainer from "../../components/CategoriesComponent/Categories
 
 const HomeScreen = () => {
   return (
-    <main className="col-main">
+    <main className="container">
       <HomeScreenSliderContainer />
       <CategoriesContainer />
       <ProductContainer />

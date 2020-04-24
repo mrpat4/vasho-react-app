@@ -8,7 +8,7 @@ const TopHeader = () => {
     <div className="top-header">
       <ul>
         <li className="logo">
-          <Link to="#">
+          <Link to="/">
             <img src={logo} alt="logo" />
           </Link>
         </li>

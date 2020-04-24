@@ -1,10 +1,11 @@
 import React from "react";
 import "./index.scss";
+import HomeScreenSliderContainer from "../../../container/HomeScreenSliderContainer";
 
 const ProductDetail = () => {
   return (
-    <section className="product-wraper">
-      <div className="right-side">
+    <section className="product-wraper row">
+      <div className="right-side col-lg-6 order-2">
         <div className="right-side-inner">
           <h2>اسم گیاه</h2>
           <ul className="product-detail-list">
@@ -39,7 +40,9 @@ const ProductDetail = () => {
           </div>
         </div>
       </div>
-      <div className="left-side">slider goes here</div>
+      <div className="left-side col-lg-6 order-lg-2">
+        <HomeScreenSliderContainer />
+      </div>
     </section>
   );
 };

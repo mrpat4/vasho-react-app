@@ -1,20 +1,18 @@
 @import "../../../values/theme";
 
 .product-tab {
-  @extend .centerAll;
+  // @extend .centerAll;
 
   .product-nav {
     display: flex;
     width: 100%;
     justify-content: center;
     padding: 1em;
-    // background-color: blue;
 
     li {
-      //   background-color: #fff;
-      padding: 1em;
+      // padding: 2em;
       margin: 0 1em;
-      width: 13em;
+      width: 10em;
       text-align: center;
       position: relative;
 
@@ -22,7 +20,6 @@
         display: inline-block;
         width: 100%;
         position: relative;
-        line-height: 24px;
         padding: 1em;
         text-align: center;
         cursor: pointer;
@@ -65,6 +62,19 @@
         &:active:after {
           content: "";
           background-color: var(--mainColor);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 40em) {
+  .product-tab {
+    .product-nav {
+      li {
+        width: 8em;
+        a {
+          font-size: 1.2rem;
         }
       }
     }

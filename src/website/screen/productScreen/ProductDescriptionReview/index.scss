@@ -1,0 +1,76 @@
+.product-description-review {
+  .review-form1 {
+    table {
+      background-color: #fff;
+      margin-bottom: 2em;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+      tbody {
+        background-color: #fff;
+
+        tr {
+          td {
+            padding: 1.5em;
+          }
+          .date {
+            text-align: left;
+          }
+        }
+        tr.border-bottom {
+          border-bottom: 1px solid #efefef;
+        }
+      }
+    }
+    h4 {
+      margin-bottom: 1em;
+    }
+    .review-form2 {
+      .show-review {
+        display: flex;
+        flex-direction: column;
+        label {
+          margin: 1em 0 0.5em 0;
+
+          &:before {
+            content: "* ";
+            color: red;
+          }
+        }
+        input,
+        textarea {
+          border: none;
+          padding: 1em;
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+        }
+      }
+      .rating-section {
+        margin: 1em 0;
+
+        label {
+          display: block;
+          &:before {
+            content: "* ";
+            color: red;
+          }
+        }
+        input {
+          margin: 0 0.5em;
+        }
+      }
+
+      button {
+        border: none;
+        background-color: #000;
+        color: #fff;
+        font-family: iranSans;
+        padding: 0.5em;
+        width: 8em;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+          background-color: var(--mainColor);
+          transition: 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+}

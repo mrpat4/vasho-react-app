@@ -75,3 +75,23 @@
     }
   }
 }
+
+@media (max-width: 40em) {
+  .top-header {
+    ul {
+      li {
+        width: 2.5em;
+        height: 2.5em;
+        i {
+          font-size: 1rem;
+        }
+      }
+
+      .logo {
+        img {
+          width: 100px;
+        }
+      }
+    }
+  }
+}

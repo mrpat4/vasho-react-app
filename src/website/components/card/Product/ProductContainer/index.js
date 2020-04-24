@@ -17,7 +17,7 @@ const ProductContainer = () => {
     return array.map((ar) => <ProductCard data={ar} />);
   };
 
-  return <div className="productContainer">{renderProducts()}</div>;
+  return <div className="productContainer row">{renderProducts()}</div>;
 };
 
 export default ProductContainer;
