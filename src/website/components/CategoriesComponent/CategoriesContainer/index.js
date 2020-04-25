@@ -5,8 +5,8 @@ import ProductsTitle from "../../card/Product/ProductsTitle";
 const CategoriesContainer = () => {
   const array = [
     { title: "کاکتوس", excat: true, to: "/", id: 1 },
-    { title: "گیاه های آپارتمانی", to: "/plants", id: 2 },
-    { title: "نهال ", to: "/tree", id: 3 },
+    { title: "گیاه هان آپارتمانی", to: "/plants", id: 2 },
+    { title: "نهال ", to: "/seedling", id: 3 },
     { title: "بذر", to: "/seed", id: 4 },
     { title: "همه محصولات", to: "/all", id: 5 },
   ];
