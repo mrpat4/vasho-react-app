@@ -3,13 +3,13 @@ import "./index.scss";
 
 const StoreCategories = () => {
   return (
-    <div className="aside-category">
+    <div className="aside-category aside-wrapper">
       <div className="heading-title">
         <div className="box-heading">دسته بندی</div>
       </div>
 
       <div className="box-content">
-        <ul className="box-category">
+        <ul className="box-category aside-box">
           <li>
             <a href="#" className="active">
               همه محصولات

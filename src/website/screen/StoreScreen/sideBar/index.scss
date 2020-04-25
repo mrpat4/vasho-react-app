@@ -1,0 +1,48 @@
+.aside-wrapper {
+  box-shadow: 0px 0px 5px 0px rgba(#000, 0.1);
+  padding: 0.5em;
+  margin: 0.5em auto;
+
+  .heading-title {
+    .box-heading {
+      width: 97%;
+      background-color: var(--mainColor);
+      color: #fff;
+      padding: 0.5em;
+      margin: 0.5em auto;
+    }
+  }
+  .box-content {
+    .aside-box {
+      padding: 0.5em;
+      font-size: 0.9rem;
+      line-height: 1.7rem;
+      li {
+        a {
+          transition: 0.3s ease-in-out;
+
+          &:hover {
+            color: var(--mainColor);
+            transition: 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+    button {
+      border: none;
+      background-color: var(--mainColor);
+      padding: 0.5em 1em;
+      color: #fff;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        background-color: #000;
+        transition: 0.3s ease-in-out;
+      }
+    }
+  }
+}
+
+input[type="checkbox"] {
+  margin: 0.5em 0 0 0.5em;
+}

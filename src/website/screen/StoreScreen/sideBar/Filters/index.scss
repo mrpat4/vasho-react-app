@@ -1,0 +1,29 @@
+.tit {
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  position: relative;
+
+  &:after {
+    content: "+";
+    position: absolute;
+    left: 0;
+  }
+}
+.collapse {
+  .filter-wrapper {
+    .checkbox {
+      label {
+        transition: 0.3s ease-in-out;
+        &:hover {
+          color: var(--mainColor);
+          cursor: pointer;
+          transition: 0.3s ease-in-out;
+        }
+        input[type="checkbox"] {
+          margin: 0.5em 0 0 0.5em;
+        }
+      }
+    }
+  }
+}
