@@ -1,5 +1,6 @@
 import HomeScreen from "./website/screen/HomeScreen";
-import productScreen from "./website/screen/productScreen";
+import ProductScreen from "./website/screen/productScreen";
+import StoreScreen from "./website/screen/StoreScreen";
 
 const routes = [
   {
@@ -9,7 +10,11 @@ const routes = [
   },
   {
     path: "/product-page",
-    component: productScreen,
+    component: ProductScreen,
+  },
+  {
+    path: "/store",
+    component: StoreScreen,
   },
 ];
 
