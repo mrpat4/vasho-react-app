@@ -5,10 +5,10 @@ import HomeScreenSlider from "../HomeScreenSlider";
 
 const HomeScreenSliderContainer = () => {
   const array = [
-    { src: "https://source.unsplash.com/1400x900/?nature,trees", alt: "Slider 1" },
-    { src: "https://source.unsplash.com/1400x900/?nature,flower", alt: "Slider 2" },
-    { src: "https://source.unsplash.com/1400x900/?nature,green", alt: "Slider 3" },
-    { src: "https://source.unsplash.com/1400x900/?nature,woods", alt: "Slider 4" },
+    { src: "https://picsum.photos/1200/600", alt: "Slider 1" },
+    { src: "https://picsum.photos/1200/600", alt: "Slider 2" },
+    { src: "https://picsum.photos/1200/600", alt: "Slider 3" },
+    { src: "https://picsum.photos/1200/600", alt: "Slider 4" },
   ];
 
   const renderSlider = () => {

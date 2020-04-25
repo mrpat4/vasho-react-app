@@ -8,6 +8,29 @@ const ProductDetail = () => {
       <div className="right-side col-lg-6 order-2">
         <div className="right-side-inner">
           <h2>اسم گیاه</h2>
+          <div className="rating-wrapper">
+            <span className="fa fa-stack">
+              <i className="fa fa-star off fa-stack-2x"></i>
+            </span>
+            <span className="fa fa-stack">
+              <i className="fa fa-star fa-stack-2x"></i>
+            </span>
+            <span className="fa fa-stack">
+              <i className="fa fa-star fa-stack-2x"></i>
+            </span>
+            <span className="fa fa-stack">
+              <i className="fa fa-star fa-stack-2x"></i>
+            </span>
+            <span className="fa fa-stack">
+              <i className="fa fa-star fa-stack-2x"></i>
+            </span>
+            <a href="" className="review-count">
+              1 نظر
+            </a>
+            <a href="" className="write-review">
+              <i className="fa fa-pencil"></i>نوشتن نظر
+            </a>
+          </div>
           <ul className="product-detail-list">
             <li>
               <span>شرکت :</span>

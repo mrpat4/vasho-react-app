@@ -24,6 +24,40 @@
       text-align: center;
       box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
 
+      .rating-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+          width: 1em;
+          height: 1em;
+          margin: 0;
+          i.fa-star {
+            font-size: 0.7rem;
+            color: gold;
+            margin: 0;
+            padding: 0;
+          }
+          i.off {
+            color: gray;
+          }
+        }
+        a.review-count {
+          margin: 0 0.5em;
+          font-size: 0.8rem;
+        }
+        a.write-review {
+          margin: 0 1em;
+          font-size: 0.8rem;
+
+          &:before {
+            content: "|";
+            padding-left: 1em;
+            color: #dbdbdb;
+          }
+        }
+      }
+
       h2 {
         font-size: 1.5rem;
         padding-bottom: 1em;
